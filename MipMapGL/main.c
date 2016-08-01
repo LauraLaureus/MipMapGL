@@ -10,6 +10,8 @@
 #include <OpenGL/OpenGL.h>
 #include <GLUT/GLUT.h>
 
+int escp = 0;
+
 int main(int argc,  char * argv[]) {
 
     glutInit(&argc, argv);
@@ -19,9 +21,12 @@ int main(int argc,  char * argv[]) {
     
     glutCreateWindow("MipMap");
     InitGL();
-    glutDisplayFunc(Display); // registra la funcion de rendering
+    glutDisplayFunc(Display); 
     glutSpecialFunc(Teclas);
     
-    glutMainLoop();
+    while(!escp){
+        glutCheckLoop();
+        //comunicamos con Mip.
+    }
     return 0;
 }
