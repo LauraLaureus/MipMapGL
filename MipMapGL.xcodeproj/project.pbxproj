@@ -10,6 +10,7 @@
 		2776D4231D4FB0E7006683A9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2776D4221D4FB0E7006683A9 /* main.c */; };
 		2776D42A1D4FCDB3006683A9 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2776D4291D4FCDB3006683A9 /* OpenGL.framework */; };
 		2776D42C1D4FCDC1006683A9 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2776D42B1D4FCDC1006683A9 /* GLUT.framework */; };
+		27EB36651D58D45C00C2514A /* view.c in Sources */ = {isa = PBXBuildFile; fileRef = 27EB36631D58D45C00C2514A /* view.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +26,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		27670CDE1D5C9A26006465FF /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 		2776D41F1D4FB0E7006683A9 /* MipMapGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MipMapGL; sourceTree = BUILT_PRODUCTS_DIR; };
 		2776D4221D4FB0E7006683A9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		2776D4291D4FCDB3006683A9 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		2776D42B1D4FCDC1006683A9 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		27EB36631D58D45C00C2514A /* view.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = view.c; sourceTree = "<group>"; };
+		27EB36641D58D45C00C2514A /* view.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = view.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,9 @@
 			isa = PBXGroup;
 			children = (
 				2776D4221D4FB0E7006683A9 /* main.c */,
+				27EB36631D58D45C00C2514A /* view.c */,
+				27EB36641D58D45C00C2514A /* view.h */,
+				27670CDE1D5C9A26006465FF /* main.h */,
 			);
 			path = MipMapGL;
 			sourceTree = "<group>";
@@ -126,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27EB36651D58D45C00C2514A /* view.c in Sources */,
 				2776D4231D4FB0E7006683A9 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +255,7 @@
 				2776D4281D4FB0E7006683A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

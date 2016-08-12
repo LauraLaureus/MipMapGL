@@ -6,9 +6,7 @@
 //  Copyright © 2016 Laura del Pino Díaz. All rights reserved.
 //
 
-#include <stdio.h>
-#include <OpenGL/OpenGL.h>
-#include <GLUT/GLUT.h>
+
 
 int escp = 0;
 
