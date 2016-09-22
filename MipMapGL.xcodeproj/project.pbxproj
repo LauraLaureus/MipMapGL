@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27670CE11D5DF0A7006465FF /* keyboard.c in Sources */ = {isa = PBXBuildFile; fileRef = 27670CDF1D5DF0A7006465FF /* keyboard.c */; };
 		2776D4231D4FB0E7006683A9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2776D4221D4FB0E7006683A9 /* main.c */; };
 		2776D42A1D4FCDB3006683A9 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2776D4291D4FCDB3006683A9 /* OpenGL.framework */; };
 		2776D42C1D4FCDC1006683A9 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2776D42B1D4FCDC1006683A9 /* GLUT.framework */; };
@@ -27,6 +28,8 @@
 
 /* Begin PBXFileReference section */
 		27670CDE1D5C9A26006465FF /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		27670CDF1D5DF0A7006465FF /* keyboard.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = keyboard.c; sourceTree = "<group>"; };
+		27670CE01D5DF0A7006465FF /* keyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keyboard.h; sourceTree = "<group>"; };
 		2776D41F1D4FB0E7006683A9 /* MipMapGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MipMapGL; sourceTree = BUILT_PRODUCTS_DIR; };
 		2776D4221D4FB0E7006683A9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		2776D4291D4FCDB3006683A9 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -73,6 +76,8 @@
 				27EB36631D58D45C00C2514A /* view.c */,
 				27EB36641D58D45C00C2514A /* view.h */,
 				27670CDE1D5C9A26006465FF /* main.h */,
+				27670CDF1D5DF0A7006465FF /* keyboard.c */,
+				27670CE01D5DF0A7006465FF /* keyboard.h */,
 			);
 			path = MipMapGL;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 			files = (
 				27EB36651D58D45C00C2514A /* view.c in Sources */,
 				2776D4231D4FB0E7006683A9 /* main.c in Sources */,
+				27670CE11D5DF0A7006465FF /* keyboard.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

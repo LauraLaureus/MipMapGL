@@ -13,5 +13,6 @@
 #include <OpenGL/OpenGL.h>
 #include <GLUT/GLUT.h>
 #include "view.h"
+#include "keyboard.h"
 
 #endif /* main_h */

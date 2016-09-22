@@ -15,3 +15,13 @@ void InitGL(){
     glLoadIdentity();
     glOrtho(0.5, 0.5, 0.5, 0.5, 0, 1);
 }
+
+void Display(){
+    //glutSolidSphere(2, 20, 20);
+    glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
+    glMatrixMode(GL_MODELVIEW);
+    glTranslatef(0.2, 0, 0);
+    glColor3f(1.0, 0, 0);
+    glutSolidSphere(0.1, 20, 20);
+    glutSwapBuffers();
+}

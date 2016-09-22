@@ -6,7 +6,7 @@
 //  Copyright © 2016 Laura del Pino Díaz. All rights reserved.
 //
 
-
+#include "main.h"
 
 int escp = 0;
 

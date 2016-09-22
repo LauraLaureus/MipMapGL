@@ -14,3 +14,4 @@
 #endif /* view_h */
 
 void InitGL();
+void Display();
