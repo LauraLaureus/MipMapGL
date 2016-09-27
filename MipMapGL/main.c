@@ -9,9 +9,12 @@
 #include "main.h"
 
 int escp = 0;
+struct MipTransform mip;
 
 int main(int argc,  char * argv[]) {
-
+    mip.x = 0;
+    mip.y = 0;
+    
     glutInit(&argc, argv);
     glutInitWindowPosition(100, 100);
     glutInitWindowSize(1280, 720);

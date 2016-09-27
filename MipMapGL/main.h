@@ -15,4 +15,11 @@
 #include "view.h"
 #include "keyboard.h"
 
+struct MipTransform{
+    float x;
+    float y;
+};
+
+extern struct MipTransform mip;
+
 #endif /* main_h */
